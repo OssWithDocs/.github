@@ -6,7 +6,7 @@ import preact from "@astrojs/preact";
 export default defineConfig({
   site: "https://ossdocs.org",
   prefetch: {
-    prefetchAll: true
+    prefetchAll: true,
   },
-  integrations: [preact()]
+  integrations: [preact()],
 });
